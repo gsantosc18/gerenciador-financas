@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gerenciador de Finanças</string>
+    <string name="brand">Gerenciador de Finanças</string>
+    <string name="fixedExpensesLb">Gastos Fixos</string>
+    <string name="dynamicExpensesLb">Gastos Dinâmicos</string>
+    <string name="description_input">Descrição</string>
+    <string name="value_input">Valor</string>
+    <string name="type_input">Tipo</string>
+    <string name="full_expense_label">Total Gasto</string>
+    <string name="default_value">10.0</string>
+    <string name="coin_label">R$</string>
+    <string name="expense_default_label">Expense</string>
+    <string name="options_dialog_label">Gastos</string>
+    <string name="delete_option_label">Apagar</string>
+    <string name="edit_option_label">Editar</string>
+</resources>
