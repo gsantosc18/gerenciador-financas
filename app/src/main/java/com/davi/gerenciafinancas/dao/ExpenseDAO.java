@@ -1,6 +1,6 @@
-package com.davi.gerenciafinancadas.dao;
+package com.davi.gerenciafinancas.dao;
 
-import static com.davi.gerenciafinancadas.database.ExpenseTable.TABLE;
+import static com.davi.gerenciafinancas.database.ExpenseTable.TABLE;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -12,10 +12,10 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import com.davi.gerenciafinancadas.database.ExpenseTable;
-import com.davi.gerenciafinancadas.dao.it.ExpenseIT;
-import com.davi.gerenciafinancadas.domain.Expense;
-import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
+import com.davi.gerenciafinancas.database.ExpenseTable;
+import com.davi.gerenciafinancas.dao.it.ExpenseIT;
+import com.davi.gerenciafinancas.domain.Expense;
+import com.davi.gerenciafinancas.domain.enums.TypeEnum;
 
 import java.util.ArrayList;
 import java.util.List;

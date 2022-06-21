@@ -1,6 +1,6 @@
-package com.davi.gerenciafinancadas.domain;
+package com.davi.gerenciafinancas.domain;
 
-import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
+import com.davi.gerenciafinancas.domain.enums.TypeEnum;
 
 import java.time.LocalDateTime;
 

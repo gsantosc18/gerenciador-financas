@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancadas.database;
+package com.davi.gerenciafinancas.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancadas;
+package com.davi.gerenciafinancas;
 
 import org.junit.Test;
 

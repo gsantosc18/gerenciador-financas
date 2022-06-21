@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancadas;
+package com.davi.gerenciafinancas;
 
 import android.app.Dialog;
 import android.os.Build;
@@ -14,8 +14,8 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.davi.gerenciafinancadas.domain.Expense;
-import com.davi.gerenciafinancadas.service.ExpenseService;
+import com.davi.gerenciafinancas.domain.Expense;
+import com.davi.gerenciafinancas.service.ExpenseService;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class OptionsDialog extends DialogFragment {

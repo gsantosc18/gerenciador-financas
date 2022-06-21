@@ -1,6 +1,6 @@
-package com.davi.gerenciafinancadas.dao.it;
+package com.davi.gerenciafinancas.dao.it;
 
-import com.davi.gerenciafinancadas.domain.Expense;
+import com.davi.gerenciafinancas.domain.Expense;
 
 import java.util.List;
 

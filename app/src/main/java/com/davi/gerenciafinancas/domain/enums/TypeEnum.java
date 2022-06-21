@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancadas.domain.enums;
+package com.davi.gerenciafinancas.domain.enums;
 
 import android.os.Build;
 

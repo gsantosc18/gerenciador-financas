@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancadas;
+package com.davi.gerenciafinancas;
 
 import static java.util.Objects.requireNonNull;
 
@@ -13,9 +13,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.davi.gerenciafinancadas.adapter.ExpenseListAdapter;
-import com.davi.gerenciafinancadas.domain.Expense;
-import com.davi.gerenciafinancadas.service.ExpenseService;
+import com.davi.gerenciafinancas.adapter.ExpenseListAdapter;
+import com.davi.gerenciafinancas.domain.Expense;
+import com.davi.gerenciafinancas.service.ExpenseService;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
