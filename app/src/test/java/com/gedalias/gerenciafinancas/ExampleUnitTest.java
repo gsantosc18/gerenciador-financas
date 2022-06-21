@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas;
+package com.gedalias.gerenciafinancas;
 
 import org.junit.Test;
 

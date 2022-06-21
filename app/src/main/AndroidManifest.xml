@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.davi.gerenciafinancas">
+    package="com.gedalias.gerenciafinancas">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SintomasEnfermagem">
         <activity
-            android:name="com.davi.gerenciafinancas.FixedExpenseView"
+            android:name="com.gedalias.gerenciafinancas.FixedExpenseView"
             android:exported="false" />
         <activity
-            android:name="com.davi.gerenciafinancas.HomeActivity"
+            android:name="com.gedalias.gerenciafinancas.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="com.davi.gerenciafinancas.MainActivity"
+            android:name="com.gedalias.gerenciafinancas.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

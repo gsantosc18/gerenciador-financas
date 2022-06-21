@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas.database;
+package com.gedalias.gerenciafinancas.database;
 
 public class StatementTable {
     public static final int VERSION = 1;

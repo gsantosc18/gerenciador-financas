@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas.adapter;
+package com.gedalias.gerenciafinancas.adapter;
 
 import android.os.Build;
 import android.util.Log;
@@ -13,12 +13,12 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.davi.gerenciafinancas.HomeActivity;
-import com.davi.gerenciafinancas.OptionsDialog;
-import com.davi.gerenciafinancas.R;
-import com.davi.gerenciafinancas.domain.Expense;
-import com.davi.gerenciafinancas.domain.enums.TypeEnum;
-import com.davi.gerenciafinancas.service.ExpenseService;
+import com.gedalias.gerenciafinancas.HomeActivity;
+import com.gedalias.gerenciafinancas.OptionsDialog;
+import com.gedalias.gerenciafinancas.R;
+import com.gedalias.gerenciafinancas.domain.Expense;
+import com.gedalias.gerenciafinancas.domain.enums.TypeEnum;
+import com.gedalias.gerenciafinancas.service.ExpenseService;
 
 import java.util.List;
 

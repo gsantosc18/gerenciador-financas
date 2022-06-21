@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas.service;
+package com.gedalias.gerenciafinancas.service;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,9 +6,9 @@ import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 
-import com.davi.gerenciafinancas.dao.ExpenseDAO;
-import com.davi.gerenciafinancas.domain.Expense;
-import com.davi.gerenciafinancas.domain.enums.TypeEnum;
+import com.gedalias.gerenciafinancas.dao.ExpenseDAO;
+import com.gedalias.gerenciafinancas.domain.Expense;
+import com.gedalias.gerenciafinancas.domain.enums.TypeEnum;
 
 import java.time.LocalDateTime;
 import java.util.List;

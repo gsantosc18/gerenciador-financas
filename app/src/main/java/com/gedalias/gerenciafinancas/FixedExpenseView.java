@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas;
+package com.gedalias.gerenciafinancas;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,8 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.davi.gerenciafinancas.domain.enums.TypeEnum;
-import com.davi.gerenciafinancas.service.ExpenseService;
+import com.gedalias.gerenciafinancas.domain.enums.TypeEnum;
+import com.gedalias.gerenciafinancas.service.ExpenseService;
 
 import java.util.Arrays;
 

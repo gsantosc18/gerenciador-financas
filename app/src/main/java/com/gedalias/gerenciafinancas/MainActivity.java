@@ -1,4 +1,4 @@
-package com.davi.gerenciafinancas;
+package com.gedalias.gerenciafinancas;
 
 import android.app.Activity;
 import android.content.Intent;
