@@ -54,6 +54,7 @@ public class HomeActivity extends AppCompatActivity {
                 int position = allExpenses.indexOf(expense);
                 expenseService.delete(expense);
                 allExpenses.remove(position);
+                totalValueLb.setText(String.valueOf(expenseService.sumExpenses()));
                 requireNonNull(expenseList.getAdapter())
                         .notifyItemRemoved(position);
             });
