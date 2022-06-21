@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem.service;
+package com.davi.gerenciafinancadas.service;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,9 +6,9 @@ import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 
-import com.davi.sintomasenfermagem.dao.ExpenseDAO;
-import com.davi.sintomasenfermagem.domain.Expense;
-import com.davi.sintomasenfermagem.domain.enums.TypeEnum;
+import com.davi.gerenciafinancadas.dao.ExpenseDAO;
+import com.davi.gerenciafinancadas.domain.Expense;
+import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
 
 import java.time.LocalDateTime;
 import java.util.List;

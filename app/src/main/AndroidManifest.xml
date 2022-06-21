@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.davi.sintomasenfermagem">
+    package="com.davi.gerenciafinancadas">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SintomasEnfermagem">
         <activity
-            android:name=".FixedExpenseView"
+            android:name="com.davi.gerenciafinancadas.FixedExpenseView"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.davi.gerenciafinancadas.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.davi.gerenciafinancadas.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

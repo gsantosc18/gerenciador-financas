@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem;
+package com.davi.gerenciafinancadas;
 
 import android.app.Activity;
 import android.content.Intent;

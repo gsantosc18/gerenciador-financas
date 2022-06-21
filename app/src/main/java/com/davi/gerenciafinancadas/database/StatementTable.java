@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem.database;
+package com.davi.gerenciafinancadas.database;
 
 public class StatementTable {
     public static final int VERSION = 1;

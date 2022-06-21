@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem.domain.enums;
+package com.davi.gerenciafinancadas.domain.enums;
 
 import android.os.Build;
 

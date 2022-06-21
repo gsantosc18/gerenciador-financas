@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem;
+package com.davi.gerenciafinancadas;
 
 import org.junit.Test;
 

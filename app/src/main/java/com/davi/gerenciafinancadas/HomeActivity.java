@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem;
+package com.davi.gerenciafinancadas;
 
 import static java.util.Objects.requireNonNull;
 
@@ -13,14 +13,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.davi.sintomasenfermagem.adapter.ExpenseListAdapter;
-import com.davi.sintomasenfermagem.domain.Expense;
-import com.davi.sintomasenfermagem.service.ExpenseService;
+import com.davi.gerenciafinancadas.adapter.ExpenseListAdapter;
+import com.davi.gerenciafinancadas.domain.Expense;
+import com.davi.gerenciafinancadas.service.ExpenseService;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
-import java.util.Objects;
-import java.util.concurrent.atomic.AtomicReference;
 
 
 @RequiresApi(api = Build.VERSION_CODES.O)

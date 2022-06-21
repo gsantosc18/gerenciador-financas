@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem.adapter;
+package com.davi.gerenciafinancadas.adapter;
 
 import android.os.Build;
 import android.util.Log;
@@ -13,12 +13,12 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.davi.sintomasenfermagem.HomeActivity;
-import com.davi.sintomasenfermagem.OptionsDialog;
-import com.davi.sintomasenfermagem.R;
-import com.davi.sintomasenfermagem.domain.Expense;
-import com.davi.sintomasenfermagem.domain.enums.TypeEnum;
-import com.davi.sintomasenfermagem.service.ExpenseService;
+import com.davi.gerenciafinancadas.HomeActivity;
+import com.davi.gerenciafinancadas.OptionsDialog;
+import com.davi.gerenciafinancadas.R;
+import com.davi.gerenciafinancadas.domain.Expense;
+import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
+import com.davi.gerenciafinancadas.service.ExpenseService;
 
 import java.util.List;
 

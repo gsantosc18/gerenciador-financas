@@ -1,6 +1,6 @@
-package com.davi.sintomasenfermagem.domain;
+package com.davi.gerenciafinancadas.domain;
 
-import com.davi.sintomasenfermagem.domain.enums.TypeEnum;
+import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
 
 import java.time.LocalDateTime;
 

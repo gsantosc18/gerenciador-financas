@@ -1,6 +1,6 @@
-package com.davi.sintomasenfermagem.dao.it;
+package com.davi.gerenciafinancadas.dao.it;
 
-import com.davi.sintomasenfermagem.domain.Expense;
+import com.davi.gerenciafinancadas.domain.Expense;
 
 import java.util.List;
 

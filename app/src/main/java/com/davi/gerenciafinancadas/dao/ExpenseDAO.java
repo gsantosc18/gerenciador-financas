@@ -1,6 +1,6 @@
-package com.davi.sintomasenfermagem.dao;
+package com.davi.gerenciafinancadas.dao;
 
-import static com.davi.sintomasenfermagem.database.ExpenseTable.TABLE;
+import static com.davi.gerenciafinancadas.database.ExpenseTable.TABLE;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -12,10 +12,10 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import com.davi.sintomasenfermagem.database.ExpenseTable;
-import com.davi.sintomasenfermagem.dao.it.ExpenseIT;
-import com.davi.sintomasenfermagem.domain.Expense;
-import com.davi.sintomasenfermagem.domain.enums.TypeEnum;
+import com.davi.gerenciafinancadas.database.ExpenseTable;
+import com.davi.gerenciafinancadas.dao.it.ExpenseIT;
+import com.davi.gerenciafinancadas.domain.Expense;
+import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
 
 import java.util.ArrayList;
 import java.util.List;

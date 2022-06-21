@@ -1,4 +1,4 @@
-package com.davi.sintomasenfermagem;
+package com.davi.gerenciafinancadas;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,8 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.davi.sintomasenfermagem.domain.enums.TypeEnum;
-import com.davi.sintomasenfermagem.service.ExpenseService;
+import com.davi.gerenciafinancadas.domain.enums.TypeEnum;
+import com.davi.gerenciafinancadas.service.ExpenseService;
 
 import java.util.Arrays;
 
