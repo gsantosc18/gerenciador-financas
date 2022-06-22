@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SintomasEnfermagem">
         <activity
-            android:name="com.gedalias.gerenciafinancas.FixedExpenseView"
+            android:name="com.gedalias.gerenciafinancas.activity.FixedExpenseCard"
             android:exported="false" />
         <activity
-            android:name="com.gedalias.gerenciafinancas.HomeActivity"
+            android:name="com.gedalias.gerenciafinancas.activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="com.gedalias.gerenciafinancas.MainActivity"
+            android:name="com.gedalias.gerenciafinancas.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

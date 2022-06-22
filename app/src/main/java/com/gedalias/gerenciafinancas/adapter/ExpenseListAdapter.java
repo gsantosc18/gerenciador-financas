@@ -13,8 +13,8 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.gedalias.gerenciafinancas.HomeActivity;
-import com.gedalias.gerenciafinancas.OptionsDialog;
+import com.gedalias.gerenciafinancas.activity.HomeActivity;
+import com.gedalias.gerenciafinancas.activity.OptionsDialog;
 import com.gedalias.gerenciafinancas.R;
 import com.gedalias.gerenciafinancas.domain.Expense;
 import com.gedalias.gerenciafinancas.domain.enums.TypeEnum;

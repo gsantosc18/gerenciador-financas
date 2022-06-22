@@ -1,4 +1,4 @@
-package com.gedalias.gerenciafinancas;
+package com.gedalias.gerenciafinancas.activity;
 
 import android.app.Dialog;
 import android.os.Build;
@@ -14,6 +14,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
+import com.gedalias.gerenciafinancas.R;
 import com.gedalias.gerenciafinancas.domain.Expense;
 import com.gedalias.gerenciafinancas.service.ExpenseService;
 

@@ -1,9 +1,11 @@
-package com.gedalias.gerenciafinancas;
+package com.gedalias.gerenciafinancas.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.gedalias.gerenciafinancas.R;
 
 public class MainActivity extends Activity {
     private final int DELAY = 2000;

@@ -1,4 +1,4 @@
-package com.gedalias.gerenciafinancas;
+package com.gedalias.gerenciafinancas.activity;
 
 import static java.util.Objects.requireNonNull;
 
@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.gedalias.gerenciafinancas.R;
 import com.gedalias.gerenciafinancas.adapter.ExpenseListAdapter;
 import com.gedalias.gerenciafinancas.domain.Expense;
 import com.gedalias.gerenciafinancas.service.ExpenseService;
@@ -73,7 +74,7 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         fixedExpensesBtnFloat.setOnClickListener(view -> {
-            Intent intent = new Intent(HomeActivity.this, FixedExpenseView.class);
+            Intent intent = new Intent(HomeActivity.this, FixedExpenseCard.class);
             startActivity(intent);
         });
     }

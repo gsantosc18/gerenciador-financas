@@ -1,4 +1,4 @@
-package com.gedalias.gerenciafinancas;
+package com.gedalias.gerenciafinancas.activity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,13 +14,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.gedalias.gerenciafinancas.R;
 import com.gedalias.gerenciafinancas.domain.enums.TypeEnum;
 import com.gedalias.gerenciafinancas.service.ExpenseService;
 
 import java.util.Arrays;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
-public class FixedExpenseView extends AppCompatActivity {
+public class FixedExpenseCard extends AppCompatActivity {
     private EditText descriptionTF;
     private EditText valueTF;
     private Button saveBtn;
@@ -71,7 +72,7 @@ public class FixedExpenseView extends AppCompatActivity {
     }
 
     private void backToHome() {
-        Intent intent = new Intent(FixedExpenseView.this, HomeActivity.class);
+        Intent intent = new Intent(FixedExpenseCard.this, HomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
